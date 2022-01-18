@@ -135,7 +135,6 @@ main {
   margin-top: 30vh;
   background-color: rgba(1, 1, 2, 0.5);
   padding: 10px;
-  width: 30%;
   color: white;
   font-family: "DM Sans", sans-serif;
   border-radius: 5%;
@@ -400,6 +399,7 @@ iframe {
 .icon__arrow {
   font-size: 35px;
   color: #504b46;
+  animation: pulse 2s infinite;
 }
 @media (max-width: 600px) {
   /* header */
