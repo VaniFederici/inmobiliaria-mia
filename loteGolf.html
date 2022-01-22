@@ -14,7 +14,7 @@
   <title>Document</title>
 </head>
 
-<body class="body__propiedades container-fluid">
+<body class="body__propiedades">
   <nav class="navbar navbar-expand-lg navbar-light nav__menu">
     <div class="container-fluid">
       <a class="navbar-brand" href="./index.html"><img class="nav__logo" src="./img/logo.png" alt="" /></a>
@@ -36,7 +36,6 @@
           <li class="nav-item">
             <a class="nav-link" href="./index.html">Lotes</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#contacto" tabindex="-1" aria-disabled="true">Contacto</a>
           </li>
@@ -52,157 +51,167 @@
           class="bi bi-facebook icon"></i></a>
     </div>
   </nav>
-  <div class=" row title__description">
-    <div class=" col__title-description col-md-6 col-sm-12">
-      <h1 class=" title__propiedad">Valle del Golf </h1>
+
+  <div class="container-fluid">
+    <div class=" row title__description">
+      <div class=" col__title-description col-md-6 col-sm-12">
+        <h1 class=" title__propiedad">Valle del Golf </h1>
+      </div>
+
+      <div class="col-md-6 col-sm-12 container__precio">
+        <h2 class="title__venta">Venta</h2>
+        <h2 class="title__precio">$USD 35.000</h2>
+      </div>
+    </div>
+    <div class=" row propiedad__container">
+      <div id="carouselExampleControls" class=" col-md-8 col-sm-12 carousel slide carousel__slide"
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/loteValleDelGolf-1.jpg"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/loteValleDelGolf-2.jpg"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/loteValleDelGolf-3.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/loteValleDelGolf-4.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/loteValleDelGolf-5.jpg"></div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class=" col-md-5 col-sm-12 description__container">
+        <h3 class="detail__title">DETALLE DE LA PROPIEDAD </h3>
+        <div class="detail__prop-container">
+          <div class="row detail__prop">
+            <div class="col-6">
+              <h6 class="detail__title-bold">Tipo de propiedad</h6>
+              <h6 class="detail__title-ligth">Lote</h6>
+            </div>
+            <div class="col-6">
+              <h6 class="detail__title-bold">Ubicacion</h6>
+              <h6 class="detail__title-ligth">Ruta Provincial C45 km 2.</h6>
+            </div>
+          </div>
+          <div class="row detail__prop">
+            <div class="col-6">
+              <h6 class="detail__title-bold">Cochera</h6>
+              <h6 class="detail__title-ligth">-</h6>
+            </div>
+            <div class="col-6">
+              <h6 class="detail__title-bold">Superficie</h6>
+              <h6 class="detail__title-ligth">804 m2 totales</h6>
+            </div>
+          </div>
+          <div class="row detail__prop">
+            <div class="col-6">
+              <h6 class="detail__title-bold">Seguridad</h6>
+              <h6 class="detail__title-ligth">24hs</h6>
+            </div>
+            <div class="col-6">
+              <h6 class="detail__title-bold">Amenities</h6>
+              <h6 class="detail__title-ligth">si</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <a name="contacto"></a>
+    <div class="row info__container">
+      <div class="col-sm-12 col-md-8 info__container-text">
+        <div class="info__title">INFORMACION BASICA</div>
+        <div class="info__descripcion">
+          Valle del Golf es un emprendimiento inmobiliario que combina la belleza del paisaje de Córdoba con la única
+          cancha de golf de 27 hoyos de Sudamérica, diseñada por el reconocido Jack Nicklaus, uno de los mejores
+          jugadores
+          en la historia del Golf
+          Son 347 hectáreas, de las cuales más de la mitad están ocupadas por espacios verdes, una laguna y una
+          imponente
+          cancha de golf. Valle del Golf es perfecto para los deportes, las actividades al aire libre y la vida en
+          familia
+          Todo está planificado para que puedas disfrutar al máximo cada segundo, con amigos o en familia, con la mayor
+          seguridad y la tranquilidad de saber que todo queda cerca.
+
+        </div>
+        <div class="info__title">SUPERFICIES Y MEDIDAS</div>
+        <div class="info__descripcion">
+          El lote cuenta con una superficie total de 804 mts2 con orientación al norte el frente de la propiedad y al
+          sur
+          el fondo de la misma.
+
+        </div>
+        <div class="info__title">DESCRIPCION</div>
+        <div class="info__descripcion">
+          La propiedad tiene las siguientes características:<br>
+          Lote de 804 mts2.<br>
+          Orientación: Norte (frente) Sur (fondo).<br>
+          Servicios subterráneos.<br>
+          Cerco perimetral y seguridad 24hs.<br>
+          Amenities: Parque y laguna artificial <br>
+          Salón de usos múltiples<br>
+          Restaurante<br>
+          Complejo Deportivo: canchas de fútbol y tenis / Driving Range / Playón de usos. múltiples / Club de jóvenes /
+          Pileta.
+          Ubicación : Camino a Falda del Carmen, en Ruta Provincial C45 km 2. La forma más ágil y fácil de llegar desde
+          la
+          ciudad de Córdoba, es por la autopista Córdoba – Carlos Paz y doblar por la Ruta C45 en dirección a Falda del
+          Carmen. A 20 min de la Ciudad de Córdoba, 15 min de Carlos Paz y a 10 min. de Alta Gracia.
+        </div>
+      </div>
+      <!-- formulario de contacto -->
+
+      <div class="col-sm-12 col-md-4 ">
+        <div class="contact__container row">
+          <div class="info__title">CONTACTO</div>
+          <div class="col-md-12 contact__secction-prop">
+            <div class="col-md-12 contact__secction__item">
+              <label>Nombre</label>
+              <input type="text" id="inputNombre" placeholder="Nombre" maxlength="25" />
+            </div>
+            <div class="col-md-12 contact__secction__item">
+              <label>E-mail</label>
+              <input type="text" id="inputEmail" placeholder="E-mail" maxlength="25" />
+            </div>
+            <div class="col-md-12 contact__secction__item">
+              <label>Telefono</label>
+              <input type="text" id="inputTel" placeholder="Telefono" maxlength="25" />
+            </div>
+            <div class="col-md-12 contact__secction__item">
+              <label>Mensaje</label>
+              <input type="text" id="inputMsj" placeholder="Domicilio" maxlength="100" />
+            </div>
+            <div class="contact-button">
+              <button type="button" class="btn-form" onclick="enviarFormulario()">Enviar</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
 
-    <div class="col-md-6 col-sm-12 container__precio">
-      <h2 class="title__venta">Venta</h2>
-      <h2 class="title__precio">$USD 35.000</h2>
+    <div class="location container-fluid">
+      <div class="info__title">UBICACION</div>
+      <iframe class="location__map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217575.04399320303!2d-64.44716704828727!3d-31.562314413469018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d5757cd502b3b%3A0x7e1fd63f649b2e46!2sValle%20Del%20Golf%20Malague%C3%B1o%20Cordoba%20Oficina%20Comercial!5e0!3m2!1ses-419!2sar!4v1640814712238!5m2!1ses-419!2sar"" style="
+        border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </div>
-  <div class=" row propiedad__container">
-    <div id="carouselExampleControls" class=" col-md-8 col-sm-12 carousel slide carousel__slide"
-      data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/loteValleDelGolf-1.jpg"></div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/loteValleDelGolf-2.jpg"></div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/loteValleDelGolf-3.jpg"></div>
-        </div>
-        <div class="carousel-item ">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/loteValleDelGolf-4.jpg"></div>
-        </div>
-        <div class="carousel-item ">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/loteValleDelGolf-5.jpg"></div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <div class=" col-md-5 col-sm-12 description__container">
-      <h3 class="detail__title">DETALLE DE LA PROPIEDAD </h3>
-      <div class="detail__prop-container">
-        <div class="row detail__prop">
-          <div class="col-6">
-            <h6 class="detail__title-bold">Tipo de propiedad</h6>
-            <h6 class="detail__title-ligth">Lote</h6>
-          </div>
-          <div class="col-6">
-            <h6 class="detail__title-bold">Ubicacion</h6>
-            <h6 class="detail__title-ligth">Ruta Provincial C45 km 2.</h6>
-          </div>
-        </div>
-        <div class="row detail__prop">
-          <div class="col-6">
-            <h6 class="detail__title-bold">Cochera</h6>
-            <h6 class="detail__title-ligth">-</h6>
-          </div>
-          <div class="col-6">
-            <h6 class="detail__title-bold">Superficie</h6>
-            <h6 class="detail__title-ligth">804 m2 totales</h6>
-          </div>
-        </div>
-        <div class="row detail__prop">
-          <div class="col-6">
-            <h6 class="detail__title-bold">Seguridad</h6>
-            <h6 class="detail__title-ligth">24hs</h6>
-          </div>
-          <div class="col-6">
-            <h6 class="detail__title-bold">Amenities</h6>
-            <h6 class="detail__title-ligth">si</h6>
-          </div>
-        </div>
-      </div>
-    </div>
 
-  </div>
-  <a name="contacto"></a>
-  <div class="row info__container">
-    <div class="col-sm-12 col-md-8 info__container-text">
-      <div class="info__title">INFORMACION BASICA</div>
-      <div class="info__descripcion">
-        Valle del Golf es un emprendimiento inmobiliario que combina la belleza del paisaje de Córdoba con la única
-        cancha de golf de 27 hoyos de Sudamérica, diseñada por el reconocido Jack Nicklaus, uno de los mejores jugadores
-        en la historia del Golf
-        Son 347 hectáreas, de las cuales más de la mitad están ocupadas por espacios verdes, una laguna y una imponente
-        cancha de golf. Valle del Golf es perfecto para los deportes, las actividades al aire libre y la vida en familia
-        Todo está planificado para que puedas disfrutar al máximo cada segundo, con amigos o en familia, con la mayor
-        seguridad y la tranquilidad de saber que todo queda cerca.
-
-      </div>
-      <div class="info__title">SUPERFICIES Y MEDIDAS</div>
-      <div class="info__descripcion">
-        El lote cuenta con una superficie total de 804 mts2 con orientación al norte el frente de la propiedad y al sur
-        el fondo de la misma.
-
-      </div>
-      <div class="info__title">DESCRIPCION</div>
-      <div class="info__descripcion">
-        La propiedad tiene las siguientes características:<br>
-        Lote de 804 mts2.<br>
-        Orientación: Norte (frente) Sur (fondo).<br>
-        Servicios subterráneos.<br>
-        Cerco perimetral y seguridad 24hs.<br>
-        Amenities: Parque y laguna artificial <br>
-        Salón de usos múltiples<br>
-        Restaurante<br>
-        Complejo Deportivo: canchas de fútbol y tenis / Driving Range / Playón de usos. múltiples / Club de jóvenes /
-        Pileta.
-        Ubicación : Camino a Falda del Carmen, en Ruta Provincial C45 km 2. La forma más ágil y fácil de llegar desde la
-        ciudad de Córdoba, es por la autopista Córdoba – Carlos Paz y doblar por la Ruta C45 en dirección a Falda del
-        Carmen. A 20 min de la Ciudad de Córdoba, 15 min de Carlos Paz y a 10 min. de Alta Gracia.
-      </div>
-    </div>
-    <!-- formulario de contacto -->
-
-    <div class="col-sm-12 col-md-4 ">
-      <div class="contact__container row">
-        <div class="info__title">CONTACTO</div>
-        <div class="col-md-12 contact__secction-prop">
-          <div class="col-md-12 contact__secction__item">
-            <label>Nombre</label>
-            <input type="text" id="inputNombre" placeholder="Nombre" maxlength="25" />
-          </div>
-          <div class="col-md-12 contact__secction__item">
-            <label>E-mail</label>
-            <input type="text" id="inputEmail" placeholder="E-mail" maxlength="25" />
-          </div>
-          <div class="col-md-12 contact__secction__item">
-            <label>Telefono</label>
-            <input type="text" id="inputTel" placeholder="Telefono" maxlength="25" />
-          </div>
-          <div class="col-md-12 contact__secction__item">
-            <label>Mensaje</label>
-            <input type="text" id="inputMsj" placeholder="Domicilio" maxlength="100" />
-          </div>
-          <div class="contact-button">
-            <button type="button" class="btn-form" onclick="enviarFormulario()">Enviar</button>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <div class="location container-fluid">
-    <div class="info__title">UBICACION</div>
-    <iframe class="location__map"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217575.04399320303!2d-64.44716704828727!3d-31.562314413469018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d5757cd502b3b%3A0x7e1fd63f649b2e46!2sValle%20Del%20Golf%20Malague%C3%B1o%20Cordoba%20Oficina%20Comercial!5e0!3m2!1ses-419!2sar!4v1640814712238!5m2!1ses-419!2sar"" style="
-      border:0;" allowfullscreen="" loading="lazy"></iframe>
-  </div>
   <footer>
     <div class="row">
       <div class="col-sm-12 col-md-4 footer__info">

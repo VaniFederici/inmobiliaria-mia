@@ -14,7 +14,7 @@
   <title>Document</title>
 </head>
 
-<body class="body__propiedades container-fluid">
+<body class="body__propiedades">
   <nav class="navbar navbar-expand-lg navbar-light nav__menu">
     <div class="container-fluid">
       <a class="navbar-brand" href="./index.html"><img class="nav__logo" src="./img/logo.png" alt="" /></a>
@@ -36,7 +36,6 @@
           <li class="nav-item">
             <a class="nav-link" href="./index.html">Lotes</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#contacto" tabindex="-1" aria-disabled="true">Contacto</a>
           </li>
@@ -53,174 +52,172 @@
     </div>
   </nav>
 
-  <div class=" row title__description">
-    <div class=" col__title-description col-md-6 col-sm-12">
-      <h1 class=" title__propiedad">Cerro de las Rosas </h1>
+  <div class="container-fluid">
+    <div class=" row title__description">
+      <div class=" col__title-description col-md-6 col-sm-12">
+        <h1 class=" title__propiedad">Cerro de las Rosas </h1>
+      </div>
+
+      <div class="col-md-6 col-sm-12 container__precio">
+        <h2 class="title__venta">Venta</h2>
+        <h2 class="title__precio">$USD 200.000</h2>
+      </div>
+    </div>
+    <div class=" row propiedad__container">
+      <div id="carouselExampleControls" class=" col-md-8 col-sm-12 carousel slide carousel__slide"
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-1.jpg"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-2.jpg"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-3.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-4.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-5.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-6.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-7.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-8.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-9.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-10.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/n1c4YUvwcOg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class=" col-md-5 col-sm-12 description__container">
+        <h3 class="detail__title">DETALLE DE LA PROPIEDAD </h3>
+        <div class="detail__prop-container">
+          <div class="row detail__prop">
+            <div class="col-6">
+              <h6 class="detail__title-bold">Tipo de propiedad</h6>
+              <h6 class="detail__title-ligth">Casa</h6>
+            </div>
+            <div class="col-6">
+              <h6 class="detail__title-bold">Ubicacion</h6>
+              <h6 class="detail__title-ligth">Cerro de las Rosas.</h6>
+            </div>
+          </div>
+          <div class="row detail__prop">
+            <div class="col-6">
+              <h6 class="detail__title-bold">Dormitorios</h6>
+              <h6 class="detail__title-ligth">6</h6>
+            </div>
+            <div class="col-6">
+              <h6 class="detail__title-bold">Superficie</h6>
+              <h6 class="detail__title-ligth">580 m2 total - 358 m2 cub</h6>
+            </div>
+          </div>
+          <div class="row detail__prop">
+            <div class="col-6">
+              <h6 class="detail__title-bold">Cochera</h6>
+              <h6 class="detail__title-ligth">doble</h6>
+            </div>
+            <div class="col-6">
+              <h6 class="detail__title-bold">Baños</h6>
+              <h6 class="detail__title-ligth">4</h6>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="col-md-6 col-sm-12 container__precio">
-      <h2 class="title__venta">Venta</h2>
-      <h2 class="title__precio">$USD 200.000</h2>
+    <a name="contacto"></a>
+    <div class="row info__container">
+      <div class="col-sm-12 col-md-8 info__container-text">
+        <div class="info__title">INFORMACION BASICA</div>
+        <div class="info__descripcion">
+          Hermosa y amplia casa esquina con 30 años de antigüedad con una calidad constructiva espectacular propia de la
+          época.
+        </div>
+        <div class="info__title">SUPERFICIES Y MEDIDAS</div>
+        <div class="info__descripcion">
+          La propiedad cuenta con una superficie total de 580 metros cuadrados, y 358 metros cuadrados cubiertos.
+        </div>
+        <div class="info__title">DESCRIPCION</div>
+        <div class="info__descripcion">
+          Esta unidad esta distribuida de la siguiente manera :<br>
+          PLANTA BAJA: un amplio living con chimenea.<br>
+          Comedor principal; patio de luz interno; tres dormitorios con<br>
+          vista al patio, baño zonificado; Sector de cocina con barra desayunadora y comedor diario.<br>
+          Baño social:<br>
+          Lavadero y dependencia de servicio (dormitorio y baño) Cochera doble cubierta; Galería con asador; Amplio
+          patio con pileta de material.<br>
+          PLANTA ALTA: Dormitorio principal en suite, con baño zonificado. Un playroom / escritorio/ dormitorio.<br>
+          Terraza con cuarto de guardado y tender.<br>
+          Calefactores en todos los ambientes
+        </div>
+      </div>
+      <!-- formulario de contacto -->
+
+      <div class="col-sm-12 col-md-4 ">
+        <div class="contact__container row">
+          <div class="info__title">CONTACTO</div>
+          <div class="col-md-12 contact__secction-prop">
+            <div class="col-md-12 contact__secction__item">
+              <label>Nombre</label>
+              <input type="text" id="inputNombre" placeholder="Nombre" maxlength="25" />
+            </div>
+            <div class="col-md-12 contact__secction__item">
+              <label>E-mail</label>
+              <input type="text" id="inputEmail" placeholder="E-mail" maxlength="25" />
+            </div>
+            <div class="col-md-12 contact__secction__item">
+              <label>Telefono</label>
+              <input type="text" id="inputTel" placeholder="Telefono" maxlength="25" />
+            </div>
+            <div class="col-md-12 contact__secction__item">
+              <label>Mensaje</label>
+              <input type="text" id="inputMsj" placeholder="Domicilio" maxlength="100" />
+            </div>
+            <div class="contact-button">
+              <button type="button" class="btn-form" onclick="enviarFormulario()">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="location container-fluid">
+      <div class="info__title">UBICACION</div>
+      <iframe class="location__map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.370937925341!2d-64.23958178515942!3d-31.376334001454726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432992bf758423f%3A0xaa4d92ada738a5d8!2sJos%C3%A9%20Esteban%20Bustos%201600%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1640749385753!5m2!1ses-419!2sar"
+        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </div>
-  <div class=" row propiedad__container">
-    <div id="carouselExampleControls" class=" col-md-8 col-sm-12 carousel slide carousel__slide"
-      data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-1.jpg"></div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-2.jpg"></div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-3.jpg"></div>
-        </div>
-        <div class="carousel-item ">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-4.jpg"></div>
-        </div>
-        <div class="carousel-item ">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-5.jpg"></div>
-        </div>
-        <div class="carousel-item ">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-6.jpg"></div>
-        </div>
-        <div class="carousel-item ">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-7.jpg"></div>
-        </div>
-        <div class="carousel-item ">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-8.jpg"></div>
-        </div>
-        <div class="carousel-item ">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-9.jpg"></div>
-        </div>
-        <div class="carousel-item ">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/cerroMComba-10.jpg"></div>
-        </div>
 
-        <div class="carousel-item ">
-          <div class="carousel__image">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/n1c4YUvwcOg"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <div class=" col-md-5 col-sm-12 description__container">
-      <h3 class="detail__title">DETALLE DE LA PROPIEDAD </h3>
-      <div class="detail__prop-container">
-        <div class="row detail__prop">
-          <div class="col-6">
-            <h6 class="detail__title-bold">Tipo de propiedad</h6>
-            <h6 class="detail__title-ligth">Casa</h6>
-          </div>
-          <div class="col-6">
-            <h6 class="detail__title-bold">Ubicacion</h6>
-            <h6 class="detail__title-ligth">Cerro de las Rosas.</h6>
-          </div>
-        </div>
-        <div class="row detail__prop">
-          <div class="col-6">
-            <h6 class="detail__title-bold">Dormitorios</h6>
-            <h6 class="detail__title-ligth">6</h6>
-          </div>
-          <div class="col-6">
-            <h6 class="detail__title-bold">Superficie</h6>
-            <h6 class="detail__title-ligth">580 m2 total - 358 m2 cub</h6>
-          </div>
-        </div>
-        <div class="row detail__prop">
-          <div class="col-6">
-            <h6 class="detail__title-bold">Cochera</h6>
-            <h6 class="detail__title-ligth">doble</h6>
-          </div>
-          <div class="col-6">
-            <h6 class="detail__title-bold">Baños</h6>
-            <h6 class="detail__title-ligth">4</h6>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <a name="contacto"></a>
-  <div class="row info__container">
-    <div class="col-sm-12 col-md-8 info__container-text">
-      <div class="info__title">INFORMACION BASICA</div>
-      <div class="info__descripcion">
-        Hermosa y amplia casa esquina con 30 años de antigüedad con una calidad constructiva espectacular propia de la
-        época.
-
-      </div>
-      <div class="info__title">SUPERFICIES Y MEDIDAS</div>
-      <div class="info__descripcion">
-        La propiedad cuenta con una superficie total de 580 metros cuadrados, y 358 metros cuadrados cubiertos.
-      </div>
-      <div class="info__title">DESCRIPCION</div>
-      <div class="info__descripcion">
-        Esta unidad esta distribuida de la siguiente manera :<br>
-        PLANTA BAJA: un amplio living con chimenea.<br>
-        Comedor principal; patio de luz interno; tres dormitorios con<br>
-        vista al patio, baño zonificado; Sector de cocina con barra desayunadora y comedor diario.<br>
-        Baño social:<br>
-        Lavadero y dependencia de servicio (dormitorio y baño) Cochera doble cubierta; Galería con asador; Amplio
-        patio con pileta de material.<br>
-        PLANTA ALTA: Dormitorio principal en suite, con baño zonificado. Un playroom / escritorio/ dormitorio.<br>
-        Terraza con cuarto de guardado y tender.<br>
-        Calefactores en todos los ambientes
-
-
-
-      </div>
-    </div>
-    <!-- formulario de contacto -->
-
-    <div class="col-sm-12 col-md-4 ">
-      <div class="contact__container row">
-        <div class="info__title">CONTACTO</div>
-        <div class="col-md-12 contact__secction-prop">
-          <div class="col-md-12 contact__secction__item">
-            <label>Nombre</label>
-            <input type="text" id="inputNombre" placeholder="Nombre" maxlength="25" />
-          </div>
-          <div class="col-md-12 contact__secction__item">
-            <label>E-mail</label>
-            <input type="text" id="inputEmail" placeholder="E-mail" maxlength="25" />
-          </div>
-          <div class="col-md-12 contact__secction__item">
-            <label>Telefono</label>
-            <input type="text" id="inputTel" placeholder="Telefono" maxlength="25" />
-          </div>
-          <div class="col-md-12 contact__secction__item">
-            <label>Mensaje</label>
-            <input type="text" id="inputMsj" placeholder="Domicilio" maxlength="100" />
-          </div>
-          <div class="contact-button">
-            <button type="button" class="btn-form" onclick="enviarFormulario()">Enviar</button>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <div class="location container-fluid">
-    <div class="info__title">UBICACION</div>
-    <iframe class="location__map"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.370937925341!2d-64.23958178515942!3d-31.376334001454726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432992bf758423f%3A0xaa4d92ada738a5d8!2sJos%C3%A9%20Esteban%20Bustos%201600%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1640749385753!5m2!1ses-419!2sar"
-      style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  </div>
   <footer>
     <div class="row">
       <div class="col-sm-12 col-md-4 footer__info">

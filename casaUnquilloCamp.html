@@ -14,7 +14,7 @@
   <title>Document</title>
 </head>
 
-<body class="body__propiedades container-fluid">
+<body class="body__propiedades">
   <nav class="navbar navbar-expand-lg navbar-light nav__menu">
     <div class="container-fluid">
       <a class="navbar-brand" href="./index.html"><img class="nav__logo" src="./img/logo.png" alt="" /></a>
@@ -53,150 +53,152 @@
     </div>
   </nav>
 
-  <div class=" row title__description">
-    <div class=" col__title-description col-md-6 col-sm-12">
-      <h1 class=" title__propiedad"> Casa -Unquillo </h1>
+  <div class="container-fluid">
+    <div class=" row title__description">
+      <div class=" col__title-description col-md-6 col-sm-12">
+        <h1 class=" title__propiedad"> Casa -Unquillo </h1>
+      </div>
+
+      <div class="col-md-6 col-sm-12 container__precio">
+        <h2 class="title__venta">Venta</h2>
+        <h2 class="title__precio">$USD 74.000</h2>
+      </div>
+    </div>
+    <div class=" row propiedad__container">
+      <div id="carouselExampleControls" class=" col-md-8 col-sm-12 carousel slide carousel__slide"
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-1.jpg"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-2.jpg"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-3.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-4.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-5.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-6.jpg"></div>
+          </div>
+          <div class="carousel-item ">
+            <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-7.jpg"></div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class=" col-md-5 col-sm-12 description__container">
+        <h3 class="detail__title">DETALLE DE LA PROPIEDAD </h3>
+        <div class="detail__prop-container">
+          <div class="row detail__prop">
+            <div class="col-6">
+              <h6 class="detail__title-bold">Tipo de propiedad</h6>
+              <h6 class="detail__title-ligth">Casa</h6>
+            </div>
+            <div class="col-6">
+              <h6 class="detail__title-bold">Ubicacion</h6>
+              <h6 class="detail__title-ligth">Unquillo.</h6>
+            </div>
+          </div>
+          <div class="row detail__prop">
+            <div class="col-6">
+              <h6 class="detail__title-bold">Dormitorio</h6>
+              <h6 class="detail__title-ligth">2</h6>
+            </div>
+            <div class="col-6">
+              <h6 class="detail__title-bold">Superficie</h6>
+              <h6 class="detail__title-ligth">460 m2 Total - 120 m2 cub</h6>
+            </div>
+          </div>
+          <div class="row detail__prop">
+            <div class="col-6">
+              <h6 class="detail__title-bold">Baños</h6>
+              <h6 class="detail__title-ligth">2</h6>
+            </div>
+            <div class="col-6">
+              <h6 class="detail__title-bold">Cochera</h6>
+              <h6 class="detail__title-ligth">Si</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a name="contacto"></a>
+    <div class="row info__container">
+      <div class="col-sm-12 col-md-8 info__container-text">
+        <div class="info__title">INFORMACION BASICA</div>
+        <div class="info__descripcion">
+          Hermosa casa en Unquillo, apta para crédito,<br>
+          excelente ubicación en barrio residencial a 8 cuadras de la calle san martin (Centro Cívico-Municipalidad)
+        </div>
+        <div class="info__title">SUPERFICIES Y MEDIDAS</div>
+        <div class="info__descripcion">
+          La propiedad cuenta con una superficie total de 460 metros cuadrados, y 120 metros cuadrados cubiertos.
+        </div>
+        <div class="info__title">DESCRIPCION</div>
+        <div class="info__descripcion">
+          La unidad se encuentra distribuída de la siguiente manera:
+          2 dormitorios amplios <br>
+          Living comedor <br>
+          cocina separada<br>
+          2 baños <br>
+          1 cochera <br>
+          galería/quincho cerrada con asador y patio<br>
+        </div>
+      </div>
+      <!-- formulario de contacto -->
+
+      <div class="col-sm-12 col-md-4 ">
+        <div class="contact__container row">
+          <div class="info__title">CONTACTO</div>
+          <div class="col-md-12 contact__secction-prop">
+            <div class="col-md-12 contact__secction__item">
+              <label>Nombre</label>
+              <input type="text" id="inputNombre" placeholder="Nombre" maxlength="25" />
+            </div>
+            <div class="col-md-12 contact__secction__item">
+              <label>E-mail</label>
+              <input type="text" id="inputEmail" placeholder="E-mail" maxlength="25" />
+            </div>
+            <div class="col-md-12 contact__secction__item">
+              <label>Telefono</label>
+              <input type="text" id="inputTel" placeholder="Telefono" maxlength="25" />
+            </div>
+            <div class="col-md-12 contact__secction__item">
+              <label>Mensaje</label>
+              <input type="text" id="inputMsj" placeholder="Domicilio" maxlength="100" />
+            </div>
+            <div class="contact-button">
+              <button type="button" class="btn-form" onclick="enviarFormulario()">Enviar</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
 
-    <div class="col-md-6 col-sm-12 container__precio">
-      <h2 class="title__venta">Venta</h2>
-      <h2 class="title__precio">$USD 74.000</h2>
+    <div class="location container-fluid">
+      <div class="info__title">UBICACION</div>
+      <iframe class="location__map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.589179647314!2d-64.32741438516408!3d-31.23210929448702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94328287d324af85%3A0xf78ea9619eb5b996!2sHuaqui%2C%20Unquillo%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1642439161265!5m2!1ses-419!2sar"
+        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </div>
-  <div class=" row propiedad__container">
-    <div id="carouselExampleControls" class=" col-md-8 col-sm-12 carousel slide carousel__slide"
-      data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-1.jpg"></div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-2.jpg"></div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-3.jpg"></div>
-        </div>
-        <div class="carousel-item ">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-4.jpg"></div>
-        </div>
-        <div class="carousel-item ">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-5.jpg"></div>
-        </div>
-        <div class="carousel-item ">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-6.jpg"></div>
-        </div>
-        <div class="carousel-item ">
-          <div class="carousel__image"><img class="carrousel__content" src="./img/casaUnquilloCamp-7.jpg"></div>
-        </div>
 
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <div class=" col-md-5 col-sm-12 description__container">
-      <h3 class="detail__title">DETALLE DE LA PROPIEDAD </h3>
-      <div class="detail__prop-container">
-        <div class="row detail__prop">
-          <div class="col-6">
-            <h6 class="detail__title-bold">Tipo de propiedad</h6>
-            <h6 class="detail__title-ligth">Casa</h6>
-          </div>
-          <div class="col-6">
-            <h6 class="detail__title-bold">Ubicacion</h6>
-            <h6 class="detail__title-ligth">Unquillo.</h6>
-          </div>
-        </div>
-        <div class="row detail__prop">
-          <div class="col-6">
-            <h6 class="detail__title-bold">Dormitorio</h6>
-            <h6 class="detail__title-ligth">2</h6>
-          </div>
-          <div class="col-6">
-            <h6 class="detail__title-bold">Superficie</h6>
-            <h6 class="detail__title-ligth">460 m2 Total - 120 m2 cub</h6>
-          </div>
-        </div>
-        <div class="row detail__prop">
-          <div class="col-6">
-            <h6 class="detail__title-bold">Baños</h6>
-            <h6 class="detail__title-ligth">2</h6>
-          </div>
-          <div class="col-6">
-            <h6 class="detail__title-bold">Cochera</h6>
-            <h6 class="detail__title-ligth">Si</h6>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <a name="contacto"></a>
-  <div class="row info__container">
-    <div class="col-sm-12 col-md-8 info__container-text">
-      <div class="info__title">INFORMACION BASICA</div>
-      <div class="info__descripcion">
-        Hermosa casa en Unquillo, apta para crédito,<br>
-        excelente ubicación en barrio residencial a 8 cuadras de la calle san martin (Centro Cívico-Municipalidad)
-      </div>
-      <div class="info__title">SUPERFICIES Y MEDIDAS</div>
-      <div class="info__descripcion">
-        La propiedad cuenta con una superficie total de 460 metros cuadrados, y 120 metros cuadrados cubiertos.
-      </div>
-      <div class="info__title">DESCRIPCION</div>
-      <div class="info__descripcion">
-        La unidad se encuentra distribuída de la siguiente manera:
-        2 dormitorios amplios <br>
-        Living comedor <br>
-        cocina separada<br>
-        2 baños <br>
-        1 cochera <br>
-        galería/quincho cerrada con asador y patio<br>
-      </div>
-    </div>
-    <!-- formulario de contacto -->
-
-    <div class="col-sm-12 col-md-4 ">
-      <div class="contact__container row">
-        <div class="info__title">CONTACTO</div>
-        <div class="col-md-12 contact__secction-prop">
-          <div class="col-md-12 contact__secction__item">
-            <label>Nombre</label>
-            <input type="text" id="inputNombre" placeholder="Nombre" maxlength="25" />
-          </div>
-          <div class="col-md-12 contact__secction__item">
-            <label>E-mail</label>
-            <input type="text" id="inputEmail" placeholder="E-mail" maxlength="25" />
-          </div>
-          <div class="col-md-12 contact__secction__item">
-            <label>Telefono</label>
-            <input type="text" id="inputTel" placeholder="Telefono" maxlength="25" />
-          </div>
-          <div class="col-md-12 contact__secction__item">
-            <label>Mensaje</label>
-            <input type="text" id="inputMsj" placeholder="Domicilio" maxlength="100" />
-          </div>
-          <div class="contact-button">
-            <button type="button" class="btn-form" onclick="enviarFormulario()">Enviar</button>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <div class="location container-fluid">
-    <div class="info__title">UBICACION</div>
-    <iframe class="location__map"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.589179647314!2d-64.32741438516408!3d-31.23210929448702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94328287d324af85%3A0xf78ea9619eb5b996!2sHuaqui%2C%20Unquillo%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1642439161265!5m2!1ses-419!2sar"
-      style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  </div>
   <footer>
     <div class="row">
       <div class="col-sm-12 col-md-4 footer__info">
