@@ -23,6 +23,11 @@
   width: 25px;
   height: 25px;
 }
+
+.navbar-nav {
+  flex-wrap: wrap;
+}
+
 .nav__item {
   width: 100%;
   justify-content: center;
@@ -409,6 +414,9 @@ iframe {
 }
 @media (max-width: 768px) {
   /* header */
+  main {
+    height: 60vh;
+  }
   .net-icons {
     display: none;
   }
